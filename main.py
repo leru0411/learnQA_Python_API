@@ -1,5 +1,5 @@
 import requests
 
-response = requests.get("https://playground.learnqa.ru/api/get_500")
+response = requests.get("https://playground.learnqa.ru/api/get_text")
 
 print(response.text)
